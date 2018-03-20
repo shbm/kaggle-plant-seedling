@@ -1,10 +1,14 @@
 ## Download Dataset
+```bash
 wget --header='Host: storage.googleapis.com' --header='User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36' --header='Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' --header='Accept-Language: en-US,en;q=0.9' 'https://storage.googleapis.com/kaggle-competitions-data/kaggle/7880/train.zip?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1521824654&Signature=M3Va0m%2BqMfo4VVhA8ToypvK8FDHUG1pzDTvcI2%2FqGilyFNY8UEgPFrrMNopD5oFsAChsjZ0y9oPkcF80qovi9zyC88KRpb7dNKBTCS0a29G1KZKNpA90l%2FKPCQcjXfmymihvgjI7AmIx3rGriSCJKCRplpDea85qhGNdU301aWIDzczrB5Q2NKkCL%2B6RyKT5Lk6rbvOxU45BpQAnL38KIVOLE8JgXzQU8BtP0QehSsw8faRGkVGJnWYzsOceMYb4WCmaFc5lzthpzHgywaiC0wl0HVf0GT14v63yiBPxx7ZBX1xITRGXtoCrdpXNEZaofv2BwCSIgRT%2B0S1NaUDn0g%3D%3D' -O 'train.zip' -c
+```
 
 ## Download Test Set
+```bash
 wget --header='Host: storage.googleapis.com' --header='User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36' --header='Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' --header='Accept-Language: en-US,en;q=0.9' 'https://storage.googleapis.com/kaggle-competitions-data/kaggle/7880/test.zip?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1521824680&Signature=I66ftiPxezV44egSyvaXzGiir4oovBMPRMAVck2OIWOaIVAAyy9XqEg94G%2B8jzkaX5%2BH1iBDe1OWWSLzCJf5lfmz6CqWS0%2BCcdpHPQsEY7u0zL1BUxYLIZS4SsYWfHOrVyrCSLYwAUayWL7lugcB6UT1PhH3pFp6JQHb1a3a1L6D7uaZquVXGbS%2BvTBhyKBKfd1iOyYP6q5%2Fm8HwMNtr18JZh1NVi7LEEgFatWcIueBSGjnXTV5Wvz4LHh%2BGMtJ0CzDpHjU7G5QDrq5znpuZBrb%2FOEJMOZksHuUaLYR2Z8qM1kMHSiJvqgegu8vnWCGbh26mvKUktZqWR1T1WBTqUg%3D%3D' -O 'test.zip' -c
+```
 
 ## Download Sample Submission
+```bash
 wget --header='Host: storage.googleapis.com' --header='User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36' --header='Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' --header='Accept-Language: en-US,en;q=0.9' 'https://storage.googleapis.com/kaggle-competitions-data/kaggle/7880/sample_submission.csv.zip?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1521824693&Signature=Q33hXYqTCZXTYRjOS9VrExocotTRRQs8mtmxsGt6g3JWUQ75V1WWpkbEEdPF%2BZEunaU%2Fk%2BmAARNuetRG80sFQmlS67oi4pThMKILxBX%2BjjnuwLt2GPv%2B93dwsgUBCbWWNWJFJsG7nCsm1x7TM2RuatoYUGbth5iU45IY%2BplKOWqm9m3P9PCf39dW5KRbg3nzxc2hYypCPHRnjOqdBRh2ExDLpuYvDQYLxN01tpxg0HRoJiKa3qZV91RZC4rNgewuJLm7u72zUfJu0JNVwdk3cvb7Rxn9QhePYLYO6Rb13uYr%2FCv6RNzOScXeWd7JoMK6OSVTchgrW%2BcDhfMr59DvhQ%3D%3D' -O 'sample_submission.csv.zip' -c
-
-
+```
